@@ -1,0 +1,291 @@
+*{
+	margin: 0px;
+	padding: 0 auto;
+}
+.container{
+	max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+i.fab.fa-facebook {
+    font-size: 22px;
+    color: black;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    right: 30px;
+    margin-left: 30px;
+}
+i.fab.fa-facebook:hover{
+    color: white;
+    background-color: #000000;
+    transition: .8s all;
+}
+
+.main_navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #f00!important;
+    margin-top: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all .3s cubic-bezier(.25,1,.35,1) 0s;
+    -moz-transition: all .3s cubic-bezier(.25,1,.35,1) 0s;
+    -o-transition: all .3s cubic-bezier(.25,1,.35,1) 0s;
+    -ms-transition: all .3s cubic-bezier(.25,1,.35,1) 0s;
+    transition: all .3s cubic-bezier(.25,1,.35,1) 0s;
+}
+li.nav-item {
+    padding: 2px 25px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+padding-right: 0px!important;
+ padding-left: 0px!important; 
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 8%!important;
+    opacity: -0.5!important;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    position: absolute;
+    z-index: 100!important;
+    width: 100%!important;
+    background: #fff !important;
+}
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: normal;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0)!important;
+    font-family: Lobster,cursive;
+}
+a.nav-link {
+    color: rgb(0, 0, 0)!important;
+    font-family: Bree ,Serif;
+    font-weight: 900;
+}
+a.nav-link:hover {
+    color: rgb(255, 0, 0)!important;
+}
+.social {
+    color: chartreuse;
+}
+ul.navbar-nav {
+    margin: 0px 186px;
+}
+
+.title_heading {
+    z-index: 100;
+    position: absolute;
+    top: 25%;
+    color: white;
+    font-family: Cardo,sans-serif;
+    font-weight: 700;
+    padding: 1% 31%;
+    left: 90px;
+}
+.discrip {
+    z-index: 100;
+    position: absolute;
+    top: 32%;
+    color: white;
+    left: 90px;
+    font-family: Rajdhani,sans-serif;
+    padding: 1% 16%;
+}
+.Banner_btn {
+    z-index: 100;
+    position: absolute;
+    top: 41%;
+    color: white;
+    left: 47%;
+    border-style: none;
+    border-radius: 20px 20px;
+    padding: 5px 10px;
+    background: #1e9599;
+}
+.Banner_btn:hover{
+    background: #000000;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.service {
+    width: 80%;
+    text-align: center;
+    margin: -120px 140px;
+    background: white;
+    z-index: 100;
+    overflow: hidden;
+    position: sticky;
+    padding: 33px 23px;
+}
+
+.fas.fa-camera {
+    font-size: 60px;
+}
+.fas.fa-video {
+    font-size: 60px;
+}
+.fas.fa-paint-brush {
+    font-size: 60px;
+}
+.service_title {
+    padding: 8px 15px;
+    font-family: Cardo,sans-serif;
+    font-weight: 700;
+}
+p.service_discription {
+    font-family: Rajdhani,sans-serif;
+}
+.welcome_txt {
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    margin: 130px 75px 35px;
+}
+h3.heading {
+    width: 69%;
+    font-size: 30px;
+    margin: 5px 34px;
+    line-height: 1.5;
+    letter-spacing: 4px;
+    font-family: Cardo,sans-serif;
+    font-weight: 700;
+}
+
+p.discription.text-muted {
+    padding: 25px 30px;
+    font-family: Rajdhani,sans-serif;
+}
+
+.welcome_img {
+    width: 100%;
+    height: 100%;
+    padding: 8px 16px;
+}
+h1.work_heading {
+    text-align: center;
+    padding: 10px 10px;
+    font-family: Cardo,sans-serif;
+    font-weight: 700;
+}
+
+.card-title{
+    font-family: Cardo,sans-serif;
+    font-weight: 700;
+}
+p.card-text {
+    font-family: Rajdhani,sans-serif;
+}
+p.card-text1 {
+    font-family: Rajdhani,sans-serif;
+}
+.card-title1{
+    font-family: Cardo,sans-serif;
+    font-weight: 700;
+}
+
+.row {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+.row3.d-flex {
+    position: relative;
+    top: 47px;
+}
+
+.card {
+    box-shadow: 0px 7px 10px rgb(0 0 0 / 50%);
+    transition: 0.5s ease-in-out;
+    padding: 10px 0px;
+    text-align: center;
+}
+.card:hover{
+    transform: translateY(5px);
+}
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(255 57 57 / 48%),rgb(209 255 128));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+.card:hover::before{
+    opacity: 1;
+}
+.card-body {
+    position: relative;
+    z-index: 3;
+    color: #000000;
+    opacity: 1;
+    transform: translateY(10px);
+    transition: 0.5s all;
+    padding: 42px 52px;
+}
+img.card-img-top {
+    padding: 10px 10px;
+}
+
+
+.btn-primary {
+    border-radius: 100px;
+    padding: 7px 20px;
+    font-weight: bolder;
+    background-color: transparent!important;
+    color: #000000!important;
+}
+.btn-primary:hover {
+background: linear-gradient(to bottom, rgba(53, 255, 69, 0.48),rgb(245, 48, 202));
+color: #f00;
+font-weight: bolder;
+transition: 1s all;
+}
+.our_blog {
+    top: 102px;
+    position: relative;
+}
+
+.latest_work{
+    background: url(../img/banner1.png) fixed;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px 0px;
+}
+.blog_img {
+    width: 100%;
+    height: 100%;
+    padding: 4px 8px;
+    position: relative;
+    top: 26px;
+}
+
+.card-body1 {
+    position: relative;
+    top: 43px;
+    padding: 3px 6px;
+    line-height: 2;
+}
+.footer {
+    position: relative;
+    top: 170px;
+    text-align: center;
+    padding: 42px 158px;
+    background-color: #00000091;
+    color: wheat;
+}
