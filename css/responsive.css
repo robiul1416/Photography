@@ -197,3 +197,43 @@ h3.heading {
     font-size: xx-large;
   }
 }
+
+@media (max-width: 408px) {
+  .navbar-brand {
+    font-size: 1.15rem;
+    letter-spacing: 2px;
+  }
+  i.fab.fa-facebook {
+    right: 0px;
+    margin-left: 4px;
+  }
+  .title_heading {
+    font-size: 15px;
+  }
+  .discrip {
+    font-size: 12px;
+    left: 13px;
+    top: 118px;
+  }
+  .Banner_btn {
+    top: 65%;
+  }
+  .service {
+    margin: -35px 70px;
+  }
+  h3.heading {
+    font-size: 12px;
+  }
+  .discription.text-muted {
+    padding: 22px 0px;
+  }
+  .welcome_img {
+    padding: 2px 0px;
+  }
+  .card {
+    left: -1px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+}
