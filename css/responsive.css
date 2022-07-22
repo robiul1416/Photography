@@ -1,0 +1,240 @@
+@media only screen and (max-width: 1370px) {
+
+}
+@media only screen and (max-width: 992px) {
+  ul.navbar-nav {
+    margin: 0px 13px;
+}
+.title_heading {
+  padding: 1px 26%;
+  left: 17px;
+  right: 32px;
+  top: 140px;
+}
+.discrip {
+  padding: 1% 19%;
+}
+.service {
+  width: 75%;
+  margin: -120px 114px;
+  padding: 25px 11px;
+}
+h3.heading {
+  width: 100%;
+  font-size: 25px;
+  margin: 5px 20px;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+.welcome_img {
+  width: 102%;
+  height: 73%;
+  padding: 6px 10px;
+}
+.blog_img {
+  height: 68%;
+  width: 100%;
+  padding: 0px 0px;
+}
+.card-body1 {
+  top: 36px;
+  padding: 0px 0px;
+  line-height: 2;
+}
+.card {
+  width: 15rem!important;
+}
+
+
+.footer {
+  padding: 35px 60px;
+  font-size: 15px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .service {
+    width: 75%;
+    margin: -120px 93px;
+    padding: 14px 5px;
+  }
+  .title_heading {
+    padding: 1px 180px;
+    left: 0px;
+    right: 0px;
+    top: 90px;
+  }
+  .discrip {
+    padding: 1% 1%;
+  }
+  .welcome_img {
+    width: 100%;
+    height: 100%;
+    padding: 6px 64px;
+  }
+  .card {
+    width: 11rem !important;
+    position: relative;
+    left: 10px;
+  }
+  .card-body {
+    padding: 25px 15px;
+  }
+  .card-body1 {
+    top: -34px;
+  }
+}
+  
+@media (max-width: 668px) {
+  .title_heading {
+    padding: 1px 111px;
+    top: 80px;
+  }
+  .Banner_btn {
+    top: 50%;
+    left: 42%;
+  }
+  .card-body {
+    padding: 10px 2px;
+  }
+  .work_heading {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 545px) {
+  .title_heading {
+    font-size: 23px;
+  }
+  .service {
+    padding: 14px 5px;
+    font-size: small;
+    margin: -120px 70px;
+  }
+  .fas.fa-camera  {
+    font-size: 45px;
+  }
+  .fas.fa-video{
+    font-size: 45px;
+  }
+  .fas.fa-paint-brush{
+    font-size: 45px;
+  }
+  .service_title {
+    font-size: 26px;
+  }
+  h3.heading {
+    font-size: 20px;
+    margin: 5px 15px;
+  }
+  .work_heading {
+    font-size: 20px;
+  }
+  .col-md-4.col-sm-6 {
+    width: 32%!important;
+  }
+  .card {
+    width: 9rem !important;
+    left: 5px;
+  }
+  img.card-img-top {
+    padding: 0px 34px;
+  }
+  .card-body {
+    padding: 5px 2px;
+  }
+  .blog_title {
+    font-size: 30px;
+  }
+  .blog_img {
+    height: 85%;
+    width: 95%;
+  }
+  .card-body1 {
+    top: 10px;
+  }
+
+}
+
+@media (max-width: 468px) {
+  i.fab.fa-facebook {
+    font-size: 17px;
+    right: 32px;
+    margin-left: 8px;
+  }
+  .title_heading {
+    font-size: 18px;
+  }
+  .discrip {
+    font-size: 13px;
+    left: 13px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .card {
+    width: 8rem !important;
+  }
+  .btn-primary {
+    padding: 1px 10px;;
+    font-size: 12px;
+  }
+  .blog_img {
+    height: 75%;
+    width: 85%;
+    left: 15px;
+  }
+  .card-body1 {
+    top: 8px;
+    font-size: smaller;
+  }
+  .about {
+    font-size: xx-large;
+  }
+  .about_dis {
+    font-size: smaller;
+  }
+  .Contact{
+    font-size: xx-large;
+  }
+}
+
+@media (max-width: 408px) {
+  .navbar-brand {
+    font-size: 1.15rem;
+    letter-spacing: 2px;
+  }
+  i.fab.fa-facebook {
+    right: 0px;
+    margin-left: 4px;
+  }
+  .title_heading {
+    font-size: 15px;
+  }
+  .discrip {
+    font-size: 12px;
+    left: 13px;
+    top: 118px;
+  }
+  .Banner_btn {
+    top: 65%;
+  }
+  .service {
+    margin: -35px 70px;
+  }
+  h3.heading {
+    font-size: 12px;
+  }
+  .discription.text-muted {
+    padding: 22px 0px;
+  }
+  .welcome_img {
+    padding: 2px 0px;
+  }
+  .card {
+    left: -1px;
+    width: 7rem !important;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+}
